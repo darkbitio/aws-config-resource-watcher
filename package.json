@@ -1,0 +1,12 @@
+{
+  "name": "aws-config-resource-watcher",
+  "version": "0.0.1",
+  "description": "Watches AWS Config documentation for changes to supported resources.",
+  "main": "index.js",
+  "repository": "https://github.com/darkbitio/aws-config-resource-watcher",
+  "author": "Darkbit, LLC",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}

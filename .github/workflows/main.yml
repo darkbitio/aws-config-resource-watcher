@@ -1,0 +1,24 @@
+name: Supported Resource Watcher
+
+on:
+  schedule:
+    - cron: '0 7,19 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup
+        run: yarn
+      - name: Check AWS Config Resources
+        env:
+          URL: https://docs.aws.amazon.com/config/latest/developerguide/resource-config-reference.html
+          FILE: readme.md
+        run: node index.js
+      - name: Commit changes
+        uses: actions-x/commit@v1
+        with:
+          message: 'auto-generated'
+          branch: master

@@ -6,7 +6,7 @@ const readme = process.env.FILE
 ;(async () => {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
-  const response = await page.goto(url)
+  const response = await page.goto(url, { waitUntil: 'load', timeout: 10000 })
 
   if (response.status() < 400) {
     // let page fully load

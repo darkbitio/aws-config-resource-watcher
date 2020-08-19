@@ -12,6 +12,7 @@ const readme = process.env.FILE
     // let page fully load
     await page.waitForNavigation({
       waitUntil: 'networkidle0',
+      timeout: 10000,
     })
 
     // get resources

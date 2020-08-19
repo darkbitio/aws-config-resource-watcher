@@ -3,6 +3,11 @@ const puppeteer = require('puppeteer')
 const url = process.env.URL
 const readme = process.env.FILE
 
+if (!url || !readme) {
+  console.log('Must provide URL and FILE environment variables.')
+  return
+}
+
 ;(async () => {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
@@ -10,10 +15,14 @@ const readme = process.env.FILE
 
   if (response.status() < 400) {
     // let page fully load
-    await page.waitForNavigation({
-      waitUntil: 'networkidle0',
-      timeout: 10000,
-    })
+    await page
+      .waitForNavigation({
+        waitUntil: 'networkidle0',
+        timeout: 10000,
+      })
+      .catch(() => {
+        console.log('Still waiting for network idle... continuing...')
+      })
 
     // get resources
     const resources = await page.evaluate(() => {

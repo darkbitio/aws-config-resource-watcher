@@ -85,6 +85,9 @@
 - [x] AWS::WAFRegional::Rule
 - [x] AWS::WAFRegional::RuleGroup
 - [x] AWS::WAFRegional::WebACL
+- [x] AWS::WAFv2::ManagedRuleSet
+- [x] AWS::WAFv2::RuleGroup
+- [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 86 resources
+Found 89 resources

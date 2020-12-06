@@ -49,6 +49,9 @@
 - [x] AWS::IAM::User
 - [x] AWS::KMS::Key
 - [x] AWS::Lambda::Function
+- [x] AWS::NetworkFirewall::Firewall
+- [x] AWS::NetworkFirewall::FirewallPolicy
+- [x] AWS::NetworkFirewall::RuleGroup
 - [x] AWS::QLDB::Ledger
 - [x] AWS::RDS::DBCluster
 - [x] AWS::RDS::DBClusterSnapshot
@@ -90,4 +93,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 89 resources
+Found 92 resources

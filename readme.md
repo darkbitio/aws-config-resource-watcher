@@ -37,6 +37,12 @@
 - [x] AWS::EC2::VPNConnection
 - [x] AWS::EC2::VPNGateway
 - [x] AWS::EC2::Volume
+- [x] AWS::ECR::Cluster
+- [x] AWS::ECS::Cluster
+- [x] AWS::ECS::Service*
+- [x] AWS::ECS::TaskDefinition
+- [x] AWS::ECS::TaskSet
+- [x] AWS::EKS::Cluster
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
 - [x] AWS::ElasticBeanstalk::Environment
@@ -93,4 +99,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 92 resources
+Found 98 resources

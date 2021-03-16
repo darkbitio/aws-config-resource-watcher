@@ -37,7 +37,7 @@
 - [x] AWS::EC2::VPNConnection
 - [x] AWS::EC2::VPNGateway
 - [x] AWS::EC2::Volume
-- [x] AWS::ECR::Cluster
+- [x] AWS::ECR::Repository
 - [x] AWS::ECS::Cluster
 - [x] AWS::ECS::Service*
 - [x] AWS::ECS::TaskDefinition

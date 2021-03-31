@@ -16,6 +16,8 @@
 - [x] AWS::CloudWatch::Alarm
 - [x] AWS::CodeBuild::Project
 - [x] AWS::CodePipeline::Pipeline
+- [x] AWS::Config::ConformancePackCompliance
+- [x] AWS::Config::ResourceCompliance
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::EIP
@@ -99,4 +101,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 98 resources
+Found 100 resources

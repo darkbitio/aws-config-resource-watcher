@@ -44,6 +44,8 @@
 - [x] AWS::ECS::Service*
 - [x] AWS::ECS::TaskDefinition
 - [x] AWS::ECS::TaskSet
+- [x] AWS::EFS::AccessPoint
+- [x] AWS::EFS::FileSystem
 - [x] AWS::EKS::Cluster
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
@@ -101,4 +103,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 100 resources
+Found 102 resources

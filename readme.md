@@ -9,6 +9,10 @@
 - [x] AWS::AutoScaling::LaunchConfiguration
 - [x] AWS::AutoScaling::ScalingPolicy
 - [x] AWS::AutoScaling::ScheduledAction
+- [x] AWS::Backup::BackupPlan
+- [x] AWS::Backup::BackupSelection
+- [x] AWS::Backup::BackupVault
+- [x] AWS::Backup::RecoveryPoint
 - [x] AWS::CloudFormation::Stack
 - [x] AWS::CloudFront::Distribution
 - [x] AWS::CloudFront::StreamingDistribution
@@ -58,6 +62,8 @@
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::User
 - [x] AWS::KMS::Key
+- [x] AWS::Kinesis::Stream
+- [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::Lambda::Function
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
@@ -103,4 +109,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 102 resources
+Found 108 resources

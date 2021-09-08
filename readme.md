@@ -36,6 +36,7 @@
 - [x] AWS::EC2::RouteTable
 - [x] AWS::EC2::SecurityGroup
 - [x] AWS::EC2::Subnet
+- [x] AWS::EC2::TransitGateway
 - [x] AWS::EC2::VPC
 - [x] AWS::EC2::VPCEndpoint
 - [x] AWS::EC2::VPCEndpointService
@@ -109,4 +110,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 108 resources
+Found 109 resources

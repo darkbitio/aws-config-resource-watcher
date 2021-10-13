@@ -69,6 +69,7 @@
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
+- [x] AWS::OpenSearch::Domain
 - [x] AWS::QLDB::Ledger
 - [x] AWS::RDS::DBCluster
 - [x] AWS::RDS::DBClusterSnapshot
@@ -110,4 +111,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 109 resources
+Found 110 resources

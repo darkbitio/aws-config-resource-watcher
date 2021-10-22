@@ -33,6 +33,7 @@
 - [x] AWS::EC2::NatGateway
 - [x] AWS::EC2::NetworkAcl
 - [x] AWS::EC2::NetworkInterface
+- [x] AWS::EC2::RegisteredHAInstance
 - [x] AWS::EC2::RouteTable
 - [x] AWS::EC2::SecurityGroup
 - [x] AWS::EC2::Subnet
@@ -106,9 +107,11 @@
 - [x] AWS::WAFRegional::Rule
 - [x] AWS::WAFRegional::RuleGroup
 - [x] AWS::WAFRegional::WebACL
+- [x] AWS::WAFv2::IPSet
 - [x] AWS::WAFv2::ManagedRuleSet
+- [x] AWS::WAFv2::RegexPatternSet
 - [x] AWS::WAFv2::RuleGroup
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 110 resources
+Found 113 resources

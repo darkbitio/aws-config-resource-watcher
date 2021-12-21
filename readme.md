@@ -93,6 +93,7 @@
 - [x] AWS::SSM::FileData
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
+- [x] AWS::SageMaker::CodeRepository
 - [x] AWS::SecretsManager::Secret
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
@@ -114,4 +115,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 113 resources
+Found 114 resources

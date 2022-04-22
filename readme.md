@@ -19,6 +19,9 @@
 - [x] AWS::CloudTrail::Trail
 - [x] AWS::CloudWatch::Alarm
 - [x] AWS::CodeBuild::Project
+- [x] AWS::CodeDeploy::Application
+- [x] AWS::CodeDeploy::DeploymentConfig
+- [x] AWS::CodeDeploy::DeploymentGroup
 - [x] AWS::CodePipeline::Pipeline
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
@@ -30,6 +33,7 @@
 - [x] AWS::EC2::Host
 - [x] AWS::EC2::Instance
 - [x] AWS::EC2::InternetGateway
+- [x] AWS::EC2::LaunchTemplate
 - [x] AWS::EC2::NatGateway
 - [x] AWS::EC2::NetworkAcl
 - [x] AWS::EC2::NetworkInterface
@@ -45,20 +49,22 @@
 - [x] AWS::EC2::VPNConnection
 - [x] AWS::EC2::VPNGateway
 - [x] AWS::EC2::Volume
+- [x] AWS::ECR::PublicRepository
 - [x] AWS::ECR::Repository
 - [x] AWS::ECS::Cluster
 - [x] AWS::ECS::Service*
 - [x] AWS::ECS::TaskDefinition
-- [x] AWS::ECS::TaskSet
 - [x] AWS::EFS::AccessPoint
 - [x] AWS::EFS::FileSystem
 - [x] AWS::EKS::Cluster
+- [x] AWS::EMR::SecurityConfiguration
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
 - [x] AWS::ElasticBeanstalk::Environment
 - [x] AWS::ElasticLoadBalancing::LoadBalancer
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
+- [x] AWS::GuardDuty::Detector
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
@@ -115,4 +121,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 114 resources
+Found 120 resources

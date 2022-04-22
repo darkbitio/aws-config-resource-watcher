@@ -19,7 +19,7 @@ jobs:
           FILE: readme.md
         run: node index.js
       - name: Commit changes
-        uses: actions-x/commit@v1
+        uses: actions-x/commit@v5
         with:
           message: 'auto-generated'
           branch: main

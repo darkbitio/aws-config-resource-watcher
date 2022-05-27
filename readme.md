@@ -100,12 +100,14 @@
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
 - [x] AWS::SageMaker::CodeRepository
+- [x] AWS::Sagemaker::Model
 - [x] AWS::SecretsManager::Secret
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
 - [x] AWS::ServiceCatalog::Portfolio
 - [x] AWS::Shield::Protection
 - [x] AWS::ShieldRegional::Protection
+- [x] AWS::StepFunctions::StateMachine
 - [x] AWS::WAF::RateBasedRule
 - [x] AWS::WAF::Rule
 - [x] AWS::WAF::RuleGroup
@@ -121,4 +123,4 @@
 - [x] AWS::WAFv2::WebACL
 - [x] AWS::XRay::EncryptionConfig
 
-Found 120 resources
+Found 122 resources

@@ -1,6 +1,7 @@
 # AWS Config Resource Watcher
 
 - [x] AWS::ACM::Certificate
+- [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::ApiGateway::RestApi
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
@@ -13,6 +14,8 @@
 - [x] AWS::Backup::BackupSelection
 - [x] AWS::Backup::BackupVault
 - [x] AWS::Backup::RecoveryPoint
+- [x] AWS::Batch::ComputeEnvironment
+- [x] AWS::Batch::JobQueue
 - [x] AWS::CloudFormation::Stack
 - [x] AWS::CloudFront::Distribution
 - [x] AWS::CloudFront::StreamingDistribution
@@ -25,6 +28,8 @@
 - [x] AWS::CodePipeline::Pipeline
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
+- [x] AWS::DMS::EventSubscription
+- [x] AWS::DMS::ReplicationSubnetGroup
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::EIP
@@ -62,6 +67,7 @@
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
 - [x] AWS::ElasticBeanstalk::Environment
 - [x] AWS::ElasticLoadBalancing::LoadBalancer
+- [x] AWS::ElasticLoadBalancingV2::Listener
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
 - [x] AWS::GuardDuty::Detector
@@ -73,6 +79,7 @@
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::Lambda::Function
+- [x] AWS::MSK::Cluster
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
@@ -91,6 +98,9 @@
 - [x] AWS::Redshift::ClusterSnapshot
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
+- [x] AWS::Route53Resolver::ResolverEndpoint
+- [x] AWS::Route53Resolver::ResolverRule
+- [x] AWS::Route53Resolver::ResolverRuleAssociation
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
 - [x] AWS::SNS::Topic
@@ -107,6 +117,7 @@
 - [x] AWS::ServiceCatalog::Portfolio
 - [x] AWS::Shield::Protection
 - [x] AWS::ShieldRegional::Protection
+- [x] AWS::StepFunctions::Activity
 - [x] AWS::StepFunctions::StateMachine
 - [x] AWS::WAF::RateBasedRule
 - [x] AWS::WAF::Rule
@@ -121,6 +132,8 @@
 - [x] AWS::WAFv2::RegexPatternSet
 - [x] AWS::WAFv2::RuleGroup
 - [x] AWS::WAFv2::WebACL
+- [x] AWS::WorkSpaces::ConnectionAlias
+- [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 122 resources
+Found 135 resources

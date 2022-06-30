@@ -110,7 +110,8 @@
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
 - [x] AWS::SageMaker::CodeRepository
-- [x] AWS::Sagemaker::Model
+- [x] AWS::SageMaker::Model
+- [x] AWS::SageMaker::NotebookInstance
 - [x] AWS::SecretsManager::Secret
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
@@ -136,4 +137,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 135 resources
+Found 136 resources

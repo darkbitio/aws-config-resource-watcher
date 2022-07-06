@@ -70,6 +70,9 @@
 - [x] AWS::ElasticLoadBalancingV2::Listener
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
+- [x] AWS::GlobalAccelerator::Accelerator
+- [x] AWS::GlobalAccelerator::EndpointGroup
+- [x] AWS::GlobalAccelerator::Listener
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::Policy
@@ -137,4 +140,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 136 resources
+Found 139 resources

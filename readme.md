@@ -47,6 +47,8 @@
 - [x] AWS::EC2::SecurityGroup
 - [x] AWS::EC2::Subnet
 - [x] AWS::EC2::TransitGateway
+- [x] AWS::EC2::TransitGatewayAttachment
+- [x] AWS::EC2::TransitGatewayRouteTable
 - [x] AWS::EC2::VPC
 - [x] AWS::EC2::VPCEndpoint
 - [x] AWS::EC2::VPCEndpointService
@@ -140,4 +142,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 139 resources
+Found 141 resources

@@ -6,6 +6,8 @@
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
 - [x] AWS::ApiGatewayV2::Stage
+- [x] AWS::Athena::DataCatalog
+- [x] AWS::Athena::WorkGroup
 - [x] AWS::AutoScaling::AutoScalingGroup
 - [x] AWS::AutoScaling::LaunchConfiguration
 - [x] AWS::AutoScaling::ScalingPolicy
@@ -28,8 +30,12 @@
 - [x] AWS::CodePipeline::Pipeline
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
+- [x] AWS::DMS::Certificate
 - [x] AWS::DMS::EventSubscription
+- [x] AWS::DMS::ReplicationInstance
 - [x] AWS::DMS::ReplicationSubnetGroup
+- [x] AWS::DMS::ReplicationTask
+- [x] AWS::Detective::Graph
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::EIP
@@ -64,6 +70,7 @@
 - [x] AWS::EFS::AccessPoint
 - [x] AWS::EFS::FileSystem
 - [x] AWS::EKS::Cluster
+- [x] AWS::EKS::FargateProfile
 - [x] AWS::EMR::SecurityConfiguration
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
@@ -75,11 +82,13 @@
 - [x] AWS::GlobalAccelerator::Accelerator
 - [x] AWS::GlobalAccelerator::EndpointGroup
 - [x] AWS::GlobalAccelerator::Listener
+- [x] AWS::Glue::Job
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::User
+- [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
@@ -103,11 +112,14 @@
 - [x] AWS::Redshift::ClusterSnapshot
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
+- [x] AWS::Route53::HealthCheck
+- [x] AWS::Route53::HostedZone
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
+- [x] AWS::SES::ConfigurationSet
 - [x] AWS::SNS::Topic
 - [x] AWS::SQS::Queue
 - [x] AWS::SSM::AssociationCompliance
@@ -115,8 +127,10 @@
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
 - [x] AWS::SageMaker::CodeRepository
+- [x] AWS::SageMaker::EndpointConfig
 - [x] AWS::SageMaker::Model
 - [x] AWS::SageMaker::NotebookInstance
+- [x] AWS::SageMaker::NotebookInstanceLifecycleConfig
 - [x] AWS::SecretsManager::Secret
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
@@ -142,4 +156,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 141 resources
+Found 155 resources

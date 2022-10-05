@@ -6,6 +6,7 @@
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
 - [x] AWS::ApiGatewayV2::Stage
+- [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
 - [x] AWS::Athena::WorkGroup
 - [x] AWS::AutoScaling::AutoScalingGroup
@@ -35,6 +36,11 @@
 - [x] AWS::DMS::ReplicationInstance
 - [x] AWS::DMS::ReplicationSubnetGroup
 - [x] AWS::DMS::ReplicationTask
+- [x] AWS::DataSync::LocationEFS
+- [x] AWS::DataSync::LocationFSxLustre
+- [x] AWS::DataSync::LocationS3
+- [x] AWS::DataSync::LocationSMB
+- [x] AWS::DataSync::Task
 - [x] AWS::Detective::Graph
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
@@ -84,6 +90,8 @@
 - [x] AWS::GlobalAccelerator::Listener
 - [x] AWS::Glue::Job
 - [x] AWS::GuardDuty::Detector
+- [x] AWS::GuardDuty::IPSet
+- [x] AWS::GuardDuty::ThreatIntelSet
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
@@ -131,10 +139,12 @@
 - [x] AWS::SageMaker::Model
 - [x] AWS::SageMaker::NotebookInstance
 - [x] AWS::SageMaker::NotebookInstanceLifecycleConfig
+- [x] AWS::SageMaker::Workteam
 - [x] AWS::SecretsManager::Secret
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
 - [x] AWS::ServiceCatalog::Portfolio
+- [x] AWS::ServiceDiscovery::Service
 - [x] AWS::Shield::Protection
 - [x] AWS::ShieldRegional::Protection
 - [x] AWS::StepFunctions::Activity
@@ -156,4 +166,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 155 resources
+Found 165 resources

@@ -6,6 +6,7 @@
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
 - [x] AWS::ApiGatewayV2::Stage
+- [x] AWS::AppConfig::Application
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
 - [x] AWS::Athena::WorkGroup
@@ -38,6 +39,7 @@
 - [x] AWS::DMS::ReplicationTask
 - [x] AWS::DataSync::LocationEFS
 - [x] AWS::DataSync::LocationFSxLustre
+- [x] AWS::DataSync::LocationNFS
 - [x] AWS::DataSync::LocationS3
 - [x] AWS::DataSync::LocationSMB
 - [x] AWS::DataSync::Task
@@ -53,6 +55,7 @@
 - [x] AWS::EC2::LaunchTemplate
 - [x] AWS::EC2::NatGateway
 - [x] AWS::EC2::NetworkAcl
+- [x] AWS::EC2::NetworkInsightsAccessScopeAnalysis
 - [x] AWS::EC2::NetworkInterface
 - [x] AWS::EC2::RegisteredHAInstance
 - [x] AWS::EC2::RouteTable
@@ -128,6 +131,7 @@
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
 - [x] AWS::SES::ConfigurationSet
+- [x] AWS::SES::ContactList
 - [x] AWS::SNS::Topic
 - [x] AWS::SQS::Queue
 - [x] AWS::SSM::AssociationCompliance
@@ -144,6 +148,7 @@
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
 - [x] AWS::ServiceCatalog::Portfolio
+- [x] AWS::ServiceDiscovery::PublicDnsNamespace
 - [x] AWS::ServiceDiscovery::Service
 - [x] AWS::Shield::Protection
 - [x] AWS::ShieldRegional::Protection
@@ -166,4 +171,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 165 resources
+Found 170 resources

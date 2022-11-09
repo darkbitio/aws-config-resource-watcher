@@ -39,7 +39,9 @@
 - [x] AWS::DMS::ReplicationTask
 - [x] AWS::DataSync::LocationEFS
 - [x] AWS::DataSync::LocationFSxLustre
+- [x] AWS::DataSync::LocationHDFS
 - [x] AWS::DataSync::LocationNFS
+- [x] AWS::DataSync::LocationObjectStorage
 - [x] AWS::DataSync::LocationS3
 - [x] AWS::DataSync::LocationSMB
 - [x] AWS::DataSync::Task
@@ -72,6 +74,7 @@
 - [x] AWS::EC2::VPNGateway
 - [x] AWS::EC2::Volume
 - [x] AWS::ECR::PublicRepository
+- [x] AWS::ECR::RegistryPolicy
 - [x] AWS::ECR::Repository
 - [x] AWS::ECS::Cluster
 - [x] AWS::ECS::Service*
@@ -88,9 +91,11 @@
 - [x] AWS::ElasticLoadBalancingV2::Listener
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
+- [x] AWS::Events::EventBus
 - [x] AWS::GlobalAccelerator::Accelerator
 - [x] AWS::GlobalAccelerator::EndpointGroup
 - [x] AWS::GlobalAccelerator::Listener
+- [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::GuardDuty::IPSet
@@ -99,6 +104,12 @@
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::User
+- [x] AWS::ImageBuilder::ContainerRecipe
+- [x] AWS::ImageBuilder::DistributionConfiguration
+- [x] AWS::ImageBuilder::InfrastructureConfiguration
+- [x] AWS::IoTEvents::AlarmModel
+- [x] AWS::IoTEvents::DetectorModel
+- [x] AWS::IoTEvents::Input
 - [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::Kinesis::Stream
@@ -125,6 +136,8 @@
 - [x] AWS::Redshift::EventSubscription
 - [x] AWS::Route53::HealthCheck
 - [x] AWS::Route53::HostedZone
+- [x] AWS::Route53RecoveryReadiness::Cell
+- [x] AWS::Route53RecoveryReadiness::ReadinessCheck
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
@@ -148,6 +161,7 @@
 - [x] AWS::ServiceCatalog::CloudFormationProduct
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
 - [x] AWS::ServiceCatalog::Portfolio
+- [x] AWS::ServiceDiscovery::HttpNamespace
 - [x] AWS::ServiceDiscovery::PublicDnsNamespace
 - [x] AWS::ServiceDiscovery::Service
 - [x] AWS::Shield::Protection
@@ -171,4 +185,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 170 resources
+Found 184 resources

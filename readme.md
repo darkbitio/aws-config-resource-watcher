@@ -30,6 +30,7 @@
 - [x] AWS::CodeDeploy::DeploymentConfig
 - [x] AWS::CodeDeploy::DeploymentGroup
 - [x] AWS::CodePipeline::Pipeline
+- [x] AWS::Config::ConfigurationRecorder
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
 - [x] AWS::DMS::Certificate
@@ -185,4 +186,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 184 resources
+Found 185 resources

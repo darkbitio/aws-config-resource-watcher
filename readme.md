@@ -18,6 +18,7 @@
 - [x] AWS::Backup::BackupSelection
 - [x] AWS::Backup::BackupVault
 - [x] AWS::Backup::RecoveryPoint
+- [x] AWS::Backup::ReportPlan
 - [x] AWS::Batch::ComputeEnvironment
 - [x] AWS::Batch::JobQueue
 - [x] AWS::CloudFormation::Stack
@@ -40,6 +41,7 @@
 - [x] AWS::DMS::ReplicationTask
 - [x] AWS::DataSync::LocationEFS
 - [x] AWS::DataSync::LocationFSxLustre
+- [x] AWS::DataSync::LocationFSxWindows
 - [x] AWS::DataSync::LocationHDFS
 - [x] AWS::DataSync::LocationNFS
 - [x] AWS::DataSync::LocationObjectStorage
@@ -92,13 +94,18 @@
 - [x] AWS::ElasticLoadBalancingV2::Listener
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
+- [x] AWS::Events::ApiDestination
+- [x] AWS::Events::Archive
+- [x] AWS::Events::Endpoint
 - [x] AWS::Events::EventBus
+- [x] AWS::FIS::ExperimentTemplate
 - [x] AWS::GlobalAccelerator::Accelerator
 - [x] AWS::GlobalAccelerator::EndpointGroup
 - [x] AWS::GlobalAccelerator::Listener
 - [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
 - [x] AWS::GuardDuty::Detector
+- [x] AWS::GuardDuty::Filter
 - [x] AWS::GuardDuty::IPSet
 - [x] AWS::GuardDuty::ThreatIntelSet
 - [x] AWS::IAM::Group
@@ -116,6 +123,8 @@
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::Lambda::Function
+- [x] AWS::Lightsail::Certificate
+- [x] AWS::Lightsail::Disk
 - [x] AWS::MSK::Cluster
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
@@ -129,6 +138,7 @@
 - [x] AWS::RDS::DBSnapshot
 - [x] AWS::RDS::DBSubnetGroup
 - [x] AWS::RDS::EventSubscription
+- [x] AWS::RUM::AppMonitor
 - [x] AWS::Redshift::Cluster
 - [x] AWS::Redshift::ClusterParameterGroup
 - [x] AWS::Redshift::ClusterSecurityGroup
@@ -146,6 +156,9 @@
 - [x] AWS::S3::Bucket*
 - [x] AWS::SES::ConfigurationSet
 - [x] AWS::SES::ContactList
+- [x] AWS::SES::ReceiptFilter
+- [x] AWS::SES::ReceiptRuleSet
+- [x] AWS::SES::Template
 - [x] AWS::SNS::Topic
 - [x] AWS::SQS::Queue
 - [x] AWS::SSM::AssociationCompliance
@@ -186,4 +199,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 185 resources
+Found 198 resources

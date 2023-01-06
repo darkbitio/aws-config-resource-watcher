@@ -2,11 +2,14 @@
 
 - [x] AWS::ACM::Certificate
 - [x] AWS::AccessAnalyzer::Analyzer
+- [x] AWS::AmazonMQ::Broker
 - [x] AWS::ApiGateway::RestApi
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
 - [x] AWS::ApiGatewayV2::Stage
 - [x] AWS::AppConfig::Application
+- [x] AWS::AppConfig::ConfigurationProfile
+- [x] AWS::AppConfig::Environment
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
 - [x] AWS::Athena::WorkGroup
@@ -21,6 +24,7 @@
 - [x] AWS::Backup::ReportPlan
 - [x] AWS::Batch::ComputeEnvironment
 - [x] AWS::Batch::JobQueue
+- [x] AWS::Cloud9::EnvironmentEC2
 - [x] AWS::CloudFormation::Stack
 - [x] AWS::CloudFront::Distribution
 - [x] AWS::CloudFront::StreamingDistribution
@@ -94,11 +98,18 @@
 - [x] AWS::ElasticLoadBalancingV2::Listener
 - [x] AWS::ElasticLoadBalancingV2::LoadBalancer
 - [x] AWS::Elasticsearch::Domain
+- [x] AWS::EventSchemas::Discoverer
+- [x] AWS::EventSchemas::Registry
+- [x] AWS::EventSchemas::RegistryPolicy
 - [x] AWS::Events::ApiDestination
 - [x] AWS::Events::Archive
 - [x] AWS::Events::Endpoint
 - [x] AWS::Events::EventBus
 - [x] AWS::FIS::ExperimentTemplate
+- [x] AWS::FraudDetector::EntityType
+- [x] AWS::FraudDetector::Label
+- [x] AWS::FraudDetector::Outcome
+- [x] AWS::FraudDetector::Variable
 - [x] AWS::GlobalAccelerator::Accelerator
 - [x] AWS::GlobalAccelerator::EndpointGroup
 - [x] AWS::GlobalAccelerator::Listener
@@ -115,6 +126,11 @@
 - [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
+- [x] AWS::IoT::Authorizer
+- [x] AWS::IoT::Dimension
+- [x] AWS::IoT::RoleAlias
+- [x] AWS::IoT::SecurityProfile
+- [x] AWS::IoTAnalytics::Datastore
 - [x] AWS::IoTEvents::AlarmModel
 - [x] AWS::IoTEvents::DetectorModel
 - [x] AWS::IoTEvents::Input
@@ -123,9 +139,12 @@
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::Lambda::Function
+- [x] AWS::Lightsail::Bucket
 - [x] AWS::Lightsail::Certificate
 - [x] AWS::Lightsail::Disk
+- [x] AWS::Lightsail::StaticIp
 - [x] AWS::MSK::Cluster
+- [x] AWS::MediaPackage::PackagingGroup
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
@@ -145,10 +164,12 @@
 - [x] AWS::Redshift::ClusterSnapshot
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
+- [x] AWS::ResilienceHub::ResiliencyPolicy
 - [x] AWS::Route53::HealthCheck
 - [x] AWS::Route53::HostedZone
 - [x] AWS::Route53RecoveryReadiness::Cell
 - [x] AWS::Route53RecoveryReadiness::ReadinessCheck
+- [x] AWS::Route53RecoveryReadiness::RecoveryGroup
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
@@ -182,6 +203,7 @@
 - [x] AWS::ShieldRegional::Protection
 - [x] AWS::StepFunctions::Activity
 - [x] AWS::StepFunctions::StateMachine
+- [x] AWS::Transfer::Workflow
 - [x] AWS::WAF::RateBasedRule
 - [x] AWS::WAF::Rule
 - [x] AWS::WAF::RuleGroup
@@ -199,4 +221,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 198 resources
+Found 220 resources

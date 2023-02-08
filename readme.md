@@ -88,8 +88,10 @@
 - [x] AWS::ECS::TaskDefinition
 - [x] AWS::EFS::AccessPoint
 - [x] AWS::EFS::FileSystem
+- [x] AWS::EKS::Addon
 - [x] AWS::EKS::Cluster
 - [x] AWS::EKS::FargateProfile
+- [x] AWS::EKS::IdentityProviderConfig
 - [x] AWS::EMR::SecurityConfiguration
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
@@ -115,6 +117,7 @@
 - [x] AWS::GlobalAccelerator::Listener
 - [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
+- [x] AWS::Glue::MLTransform
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::GuardDuty::Filter
 - [x] AWS::GuardDuty::IPSet
@@ -123,21 +126,36 @@
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::User
+- [x] AWS::IVS::Channel
+- [x] AWS::IVS::PlaybackKeyPair
+- [x] AWS::IVS::RecordingConfiguration
 - [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
 - [x] AWS::IoT::Authorizer
 - [x] AWS::IoT::Dimension
+- [x] AWS::IoT::MitigationAction
+- [x] AWS::IoT::Policy
 - [x] AWS::IoT::RoleAlias
 - [x] AWS::IoT::SecurityProfile
+- [x] AWS::IoTAnalytics::Channel
+- [x] AWS::IoTAnalytics::Dataset
 - [x] AWS::IoTAnalytics::Datastore
+- [x] AWS::IoTAnalytics::Pipeline
 - [x] AWS::IoTEvents::AlarmModel
 - [x] AWS::IoTEvents::DetectorModel
 - [x] AWS::IoTEvents::Input
+- [x] AWS::IoTSiteWise::AssetModel
+- [x] AWS::IoTSiteWise::Dashboard
+- [x] AWS::IoTSiteWise::Portal
+- [x] AWS::IoTSiteWise::Project
+- [x] AWS::IoTTwinMaker::Entity
+- [x] AWS::IoTTwinMaker::Workspace
 - [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
+- [x] AWS::KinesisAnalyticsV2::Application
 - [x] AWS::Lambda::Function
 - [x] AWS::Lightsail::Bucket
 - [x] AWS::Lightsail::Certificate
@@ -157,6 +175,7 @@
 - [x] AWS::RDS::DBSnapshot
 - [x] AWS::RDS::DBSubnetGroup
 - [x] AWS::RDS::EventSubscription
+- [x] AWS::RDS::GlobalCluster
 - [x] AWS::RUM::AppMonitor
 - [x] AWS::Redshift::Cluster
 - [x] AWS::Redshift::ClusterParameterGroup
@@ -175,6 +194,7 @@
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
+- [x] AWS::S3::MultiRegionAccessPoint
 - [x] AWS::SES::ConfigurationSet
 - [x] AWS::SES::ContactList
 - [x] AWS::SES::ReceiptFilter
@@ -221,4 +241,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 220 resources
+Found 240 resources

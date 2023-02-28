@@ -93,6 +93,10 @@
 - [x] AWS::EKS::FargateProfile
 - [x] AWS::EKS::IdentityProviderConfig
 - [x] AWS::EMR::SecurityConfiguration
+- [x] AWS::ElastiCache::CacheCluster
+- [x] AWS::ElastiCache::ParameterGroup
+- [x] AWS::ElastiCache::ReplicationGroup
+- [x] AWS::ElastiCache::SubnetGroup
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
 - [x] AWS::ElasticBeanstalk::Environment
@@ -241,4 +245,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 240 resources
+Found 244 resources

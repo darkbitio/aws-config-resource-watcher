@@ -24,6 +24,7 @@
 - [x] AWS::Backup::ReportPlan
 - [x] AWS::Batch::ComputeEnvironment
 - [x] AWS::Batch::JobQueue
+- [x] AWS::Budgets::BudgetsAction
 - [x] AWS::Cloud9::EnvironmentEC2
 - [x] AWS::CloudFormation::Stack
 - [x] AWS::CloudFront::Distribution
@@ -34,6 +35,7 @@
 - [x] AWS::CodeDeploy::Application
 - [x] AWS::CodeDeploy::DeploymentConfig
 - [x] AWS::CodeDeploy::DeploymentGroup
+- [x] AWS::CodeGuruReviewer::RepositoryAssociation
 - [x] AWS::CodePipeline::Pipeline
 - [x] AWS::Config::ConfigurationRecorder
 - [x] AWS::Config::ConformancePackCompliance
@@ -53,6 +55,7 @@
 - [x] AWS::DataSync::LocationSMB
 - [x] AWS::DataSync::Task
 - [x] AWS::Detective::Graph
+- [x] AWS::DeviceFarm::TestGridProject
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::EIP
@@ -70,6 +73,8 @@
 - [x] AWS::EC2::RouteTable
 - [x] AWS::EC2::SecurityGroup
 - [x] AWS::EC2::Subnet
+- [x] AWS::EC2::TrafficMirrorSession
+- [x] AWS::EC2::TrafficMirrorTarget
 - [x] AWS::EC2::TransitGateway
 - [x] AWS::EC2::TransitGatewayAttachment
 - [x] AWS::EC2::TransitGatewayRouteTable
@@ -93,10 +98,6 @@
 - [x] AWS::EKS::FargateProfile
 - [x] AWS::EKS::IdentityProviderConfig
 - [x] AWS::EMR::SecurityConfiguration
-- [x] AWS::ElastiCache::CacheCluster
-- [x] AWS::ElastiCache::ParameterGroup
-- [x] AWS::ElastiCache::ReplicationGroup
-- [x] AWS::ElastiCache::SubnetGroup
 - [x] AWS::ElasticBeanstalk::Application
 - [x] AWS::ElasticBeanstalk::ApplicationVersion
 - [x] AWS::ElasticBeanstalk::Environment
@@ -107,8 +108,10 @@
 - [x] AWS::EventSchemas::Discoverer
 - [x] AWS::EventSchemas::Registry
 - [x] AWS::EventSchemas::RegistryPolicy
+- [x] AWS::EventSchemas::Schema
 - [x] AWS::Events::ApiDestination
 - [x] AWS::Events::Archive
+- [x] AWS::Events::Connection
 - [x] AWS::Events::Endpoint
 - [x] AWS::Events::EventBus
 - [x] AWS::FIS::ExperimentTemplate
@@ -136,11 +139,14 @@
 - [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
+- [x] AWS::IoT::AccountAuditConfiguration
 - [x] AWS::IoT::Authorizer
+- [x] AWS::IoT::CustomMetric
 - [x] AWS::IoT::Dimension
 - [x] AWS::IoT::MitigationAction
 - [x] AWS::IoT::Policy
 - [x] AWS::IoT::RoleAlias
+- [x] AWS::IoT::ScheduledAudit
 - [x] AWS::IoT::SecurityProfile
 - [x] AWS::IoTAnalytics::Channel
 - [x] AWS::IoTAnalytics::Dataset
@@ -151,6 +157,7 @@
 - [x] AWS::IoTEvents::Input
 - [x] AWS::IoTSiteWise::AssetModel
 - [x] AWS::IoTSiteWise::Dashboard
+- [x] AWS::IoTSiteWise::Gateway
 - [x] AWS::IoTSiteWise::Portal
 - [x] AWS::IoTSiteWise::Project
 - [x] AWS::IoTTwinMaker::Entity
@@ -161,11 +168,15 @@
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::KinesisAnalyticsV2::Application
 - [x] AWS::Lambda::Function
+- [x] AWS::Lex::Bot
+- [x] AWS::Lex::BotAlias
 - [x] AWS::Lightsail::Bucket
 - [x] AWS::Lightsail::Certificate
 - [x] AWS::Lightsail::Disk
 - [x] AWS::Lightsail::StaticIp
+- [x] AWS::LookoutMetrics::Alert
 - [x] AWS::MSK::Cluster
+- [x] AWS::MediaPackage::PackagingConfiguration
 - [x] AWS::MediaPackage::PackagingGroup
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
@@ -188,17 +199,20 @@
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
 - [x] AWS::ResilienceHub::ResiliencyPolicy
+- [x] AWS::RoboMaker::RobotApplicationVersion
 - [x] AWS::Route53::HealthCheck
 - [x] AWS::Route53::HostedZone
 - [x] AWS::Route53RecoveryReadiness::Cell
 - [x] AWS::Route53RecoveryReadiness::ReadinessCheck
 - [x] AWS::Route53RecoveryReadiness::RecoveryGroup
+- [x] AWS::Route53Resolver::FirewallDomainList
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
 - [x] AWS::S3::MultiRegionAccessPoint
+- [x] AWS::S3::StorageLens
 - [x] AWS::SES::ConfigurationSet
 - [x] AWS::SES::ContactList
 - [x] AWS::SES::ReceiptFilter
@@ -245,4 +259,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 244 resources
+Found 258 resources

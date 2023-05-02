@@ -193,6 +193,7 @@
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
+- [x] AWS::NetworkFirewall::TLSInspectionConfiguration
 - [x] AWS::NetworkManager::TransitGatewayRegistration
 - [x] AWS::OpenSearch::Domain
 - [x] AWS::Pinpoint::ApplicationSettings
@@ -281,4 +282,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 280 resources
+Found 281 resources

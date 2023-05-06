@@ -1,6 +1,7 @@
 # AWS Config Resource Watcher
 
 - [x] AWS::ACM::Certificate
+- [x] AWS::AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
 - [x] AWS::ApiGateway::RestApi
@@ -9,11 +10,14 @@
 - [x] AWS::ApiGatewayV2::Stage
 - [x] AWS::AppConfig::Application
 - [x] AWS::AppConfig::ConfigurationProfile
+- [x] AWS::AppConfig::DeploymentStrategy
 - [x] AWS::AppConfig::Environment
+- [x] AWS::AppFlow::Flow
 - [x] AWS::AppStream::DirectoryConfig
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
 - [x] AWS::Athena::WorkGroup
+- [x] AWS::AuditManager::Assessment
 - [x] AWS::AutoScaling::AutoScalingGroup
 - [x] AWS::AutoScaling::LaunchConfiguration
 - [x] AWS::AutoScaling::ScalingPolicy
@@ -33,6 +37,7 @@
 - [x] AWS::CloudFront::StreamingDistribution
 - [x] AWS::CloudTrail::Trail
 - [x] AWS::CloudWatch::Alarm
+- [x] AWS::CloudWatch::MetricStream
 - [x] AWS::CodeBuild::Project
 - [x] AWS::CodeDeploy::Application
 - [x] AWS::CodeDeploy::DeploymentConfig
@@ -59,10 +64,13 @@
 - [x] AWS::DataSync::LocationSMB
 - [x] AWS::DataSync::Task
 - [x] AWS::Detective::Graph
+- [x] AWS::DeviceFarm::InstanceProfile
+- [x] AWS::DeviceFarm::Project
 - [x] AWS::DeviceFarm::TestGridProject
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::DHCPOptions
+- [x] AWS::EC2::EC2Fleet
 - [x] AWS::EC2::EIP
 - [x] AWS::EC2::EgressOnlyInternetGateway
 - [x] AWS::EC2::FlowLog
@@ -80,6 +88,7 @@
 - [x] AWS::EC2::RouteTable
 - [x] AWS::EC2::SecurityGroup
 - [x] AWS::EC2::Subnet
+- [x] AWS::EC2::SubnetRouteTableAssociation
 - [x] AWS::EC2::TrafficMirrorFilter
 - [x] AWS::EC2::TrafficMirrorSession
 - [x] AWS::EC2::TrafficMirrorTarget
@@ -94,6 +103,7 @@
 - [x] AWS::EC2::VPNGateway
 - [x] AWS::EC2::Volume
 - [x] AWS::ECR::PublicRepository
+- [x] AWS::ECR::PullThroughCacheRule
 - [x] AWS::ECR::RegistryPolicy
 - [x] AWS::ECR::Repository
 - [x] AWS::ECS::Cluster
@@ -133,6 +143,7 @@
 - [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
 - [x] AWS::Glue::MLTransform
+- [x] AWS::GroundStation::Config
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::GuardDuty::Filter
 - [x] AWS::GuardDuty::IPSet
@@ -145,13 +156,14 @@
 - [x] AWS::IVS::Channel
 - [x] AWS::IVS::PlaybackKeyPair
 - [x] AWS::IVS::RecordingConfiguration
-- [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
+- [x] AWS::ImageBuilder::ImagePipeline
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
 - [x] AWS::IoT::AccountAuditConfiguration
 - [x] AWS::IoT::Authorizer
 - [x] AWS::IoT::CustomMetric
 - [x] AWS::IoT::Dimension
+- [x] AWS::IoT::FleetMetric
 - [x] AWS::IoT::MitigationAction
 - [x] AWS::IoT::Policy
 - [x] AWS::IoT::RoleAlias
@@ -172,6 +184,7 @@
 - [x] AWS::IoTTwinMaker::Entity
 - [x] AWS::IoTTwinMaker::Scene
 - [x] AWS::IoTTwinMaker::Workspace
+- [x] AWS::IoTWireless::ServiceProfile
 - [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::Kinesis::Stream
@@ -194,8 +207,13 @@
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
 - [x] AWS::NetworkFirewall::TLSInspectionConfiguration
+- [x] AWS::NetworkManager::Device
+- [x] AWS::NetworkManager::GlobalNetwork
+- [x] AWS::NetworkManager::Link
+- [x] AWS::NetworkManager::Site
 - [x] AWS::NetworkManager::TransitGatewayRegistration
 - [x] AWS::OpenSearch::Domain
+- [x] AWS::Pinpoint::App
 - [x] AWS::Pinpoint::ApplicationSettings
 - [x] AWS::Pinpoint::Segment
 - [x] AWS::QLDB::Ledger
@@ -214,6 +232,7 @@
 - [x] AWS::Redshift::ClusterSnapshot
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
+- [x] AWS::Redshift::ScheduledAction
 - [x] AWS::ResilienceHub::ResiliencyPolicy
 - [x] AWS::RoboMaker::RobotApplication
 - [x] AWS::RoboMaker::RobotApplicationVersion
@@ -247,8 +266,10 @@
 - [x] AWS::SSM::FileData
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
+- [x] AWS::SageMaker::AppImageConfig
 - [x] AWS::SageMaker::CodeRepository
 - [x] AWS::SageMaker::EndpointConfig
+- [x] AWS::SageMaker::Image
 - [x] AWS::SageMaker::Model
 - [x] AWS::SageMaker::NotebookInstance
 - [x] AWS::SageMaker::NotebookInstanceLifecycleConfig
@@ -281,5 +302,6 @@
 - [x] AWS::WorkSpaces::ConnectionAlias
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
+- [x] AWS:Panorama::Package
 
-Found 281 resources
+Found 303 resources

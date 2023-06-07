@@ -4,7 +4,6 @@
 - [x] AWS::AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
-- [x] AWS::Amplify::App
 - [x] AWS::ApiGateway::RestApi
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
@@ -14,10 +13,6 @@
 - [x] AWS::AppConfig::DeploymentStrategy
 - [x] AWS::AppConfig::Environment
 - [x] AWS::AppFlow::Flow
-- [x] AWS::AppMesh::VirtualNode
-- [x] AWS::AppMesh::VirtualService
-- [x] AWS::AppRunner::VpcConnector
-- [x] AWS::AppStream::Application
 - [x] AWS::AppStream::DirectoryConfig
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
@@ -36,7 +31,6 @@
 - [x] AWS::Batch::ComputeEnvironment
 - [x] AWS::Batch::JobQueue
 - [x] AWS::Budgets::BudgetsAction
-- [x] AWS::Cassandra::Keyspace
 - [x] AWS::Cloud9::EnvironmentEC2
 - [x] AWS::CloudFormation::Stack
 - [x] AWS::CloudFront::Distribution
@@ -44,7 +38,6 @@
 - [x] AWS::CloudTrail::Trail
 - [x] AWS::CloudWatch::Alarm
 - [x] AWS::CloudWatch::MetricStream
-- [x] AWS::CodeArtifact::Repository
 - [x] AWS::CodeBuild::Project
 - [x] AWS::CodeDeploy::Application
 - [x] AWS::CodeDeploy::DeploymentConfig
@@ -91,11 +84,9 @@
 - [x] AWS::EC2::NetworkInsightsAccessScopeAnalysis
 - [x] AWS::EC2::NetworkInsightsPath
 - [x] AWS::EC2::NetworkInterface
-- [x] AWS::EC2::PrefixList
 - [x] AWS::EC2::RegisteredHAInstance
 - [x] AWS::EC2::RouteTable
 - [x] AWS::EC2::SecurityGroup
-- [x] AWS::EC2::SpotFleet
 - [x] AWS::EC2::Subnet
 - [x] AWS::EC2::SubnetRouteTableAssociation
 - [x] AWS::EC2::TrafficMirrorFilter
@@ -118,7 +109,6 @@
 - [x] AWS::ECS::Cluster
 - [x] AWS::ECS::Service*
 - [x] AWS::ECS::TaskDefinition
-- [x] AWS::ECS::TaskSet
 - [x] AWS::EFS::AccessPoint
 - [x] AWS::EFS::FileSystem
 - [x] AWS::EKS::Addon
@@ -142,9 +132,7 @@
 - [x] AWS::Events::Endpoint
 - [x] AWS::Events::EventBus
 - [x] AWS::Events::Rule
-- [x] AWS::Evidently::Project
 - [x] AWS::FIS::ExperimentTemplate
-- [x] AWS::Forecast::Dataset
 - [x] AWS::FraudDetector::EntityType
 - [x] AWS::FraudDetector::Label
 - [x] AWS::FraudDetector::Outcome
@@ -164,8 +152,6 @@
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
-- [x] AWS::IAM::SAMLProvider
-- [x] AWS::IAM::ServerCertificate
 - [x] AWS::IAM::User
 - [x] AWS::IVS::Channel
 - [x] AWS::IVS::PlaybackKeyPair
@@ -204,7 +190,6 @@
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::KinesisAnalyticsV2::Application
-- [x] AWS::KinesisFirehose::DeliveryStream
 - [x] AWS::KinesisVideo::SignalingChannel
 - [x] AWS::Lambda::Function
 - [x] AWS::Lex::Bot
@@ -230,8 +215,6 @@
 - [x] AWS::OpenSearch::Domain
 - [x] AWS::Pinpoint::App
 - [x] AWS::Pinpoint::ApplicationSettings
-- [x] AWS::Pinpoint::Campaign
-- [x] AWS::Pinpoint::InAppTemplate
 - [x] AWS::Pinpoint::Segment
 - [x] AWS::QLDB::Ledger
 - [x] AWS::RDS::DBCluster
@@ -285,7 +268,6 @@
 - [x] AWS::SSM::PatchCompliance
 - [x] AWS::SageMaker::AppImageConfig
 - [x] AWS::SageMaker::CodeRepository
-- [x] AWS::SageMaker::Domain
 - [x] AWS::SageMaker::EndpointConfig
 - [x] AWS::SageMaker::Image
 - [x] AWS::SageMaker::Model
@@ -301,11 +283,8 @@
 - [x] AWS::ServiceDiscovery::Service
 - [x] AWS::Shield::Protection
 - [x] AWS::ShieldRegional::Protection
-- [x] AWS::Signer::SigningProfile
 - [x] AWS::StepFunctions::Activity
 - [x] AWS::StepFunctions::StateMachine
-- [x] AWS::Transfer::Agreement
-- [x] AWS::Transfer::Connector
 - [x] AWS::Transfer::Workflow
 - [x] AWS::WAF::RateBasedRule
 - [x] AWS::WAF::Rule
@@ -325,4 +304,4 @@
 - [x] AWS::XRay::EncryptionConfig
 - [x] AWS:Panorama::Package
 
-Found 324 resources
+Found 303 resources

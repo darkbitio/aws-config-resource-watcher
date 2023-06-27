@@ -1,7 +1,6 @@
 # AWS Config Resource Watcher
 
 - [x] AWS::ACM::Certificate
-- [x] AWS::AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
 - [x] AWS::Amplify::App
@@ -229,6 +228,7 @@
 - [x] AWS::NetworkManager::Site
 - [x] AWS::NetworkManager::TransitGatewayRegistration
 - [x] AWS::OpenSearch::Domain
+- [x] AWS::Panorama::Package
 - [x] AWS::Pinpoint::App
 - [x] AWS::Pinpoint::ApplicationSettings
 - [x] AWS::Pinpoint::Campaign
@@ -266,6 +266,7 @@
 - [x] AWS::Route53RecoveryReadiness::RecoveryGroup
 - [x] AWS::Route53RecoveryReadiness::ResourceSet
 - [x] AWS::Route53Resolver::FirewallDomainList
+- [x] AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
@@ -324,6 +325,5 @@
 - [x] AWS::WorkSpaces::ConnectionAlias
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
-- [x] AWS:Panorama::Package
 
 Found 325 resources

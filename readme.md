@@ -169,6 +169,7 @@
 - [x] AWS::IVS::Channel
 - [x] AWS::IVS::PlaybackKeyPair
 - [x] AWS::IVS::RecordingConfiguration
+- [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::ImagePipeline
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
@@ -326,4 +327,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 325 resources
+Found 326 resources

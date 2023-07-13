@@ -1,6 +1,7 @@
 # AWS Config Resource Watcher
 
 - [x] AWS::ACM::Certificate
+- [x] AWS::ACMPCA::CertificateAuthority
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
 - [x] AWS::Amplify::App
@@ -12,9 +13,13 @@
 - [x] AWS::AppConfig::ConfigurationProfile
 - [x] AWS::AppConfig::DeploymentStrategy
 - [x] AWS::AppConfig::Environment
+- [x] AWS::AppConfig::HostedConfigurationVersion
 - [x] AWS::AppFlow::Flow
+- [x] AWS::AppMesh::VirtualGateway
 - [x] AWS::AppMesh::VirtualNode
+- [x] AWS::AppMesh::VirtualRouter
 - [x] AWS::AppMesh::VirtualService
+- [x] AWS::AppRunner::Service
 - [x] AWS::AppRunner::VpcConnector
 - [x] AWS::AppStream::Application
 - [x] AWS::AppStream::DirectoryConfig
@@ -55,7 +60,9 @@
 - [x] AWS::Config::ResourceCompliance
 - [x] AWS::Connect::PhoneNumber
 - [x] AWS::CustomerProfiles::Domain
+- [x] AWS::CustomerProfiles::ObjectType
 - [x] AWS::DMS::Certificate
+- [x] AWS::DMS::Endpoint
 - [x] AWS::DMS::EventSubscription
 - [x] AWS::DMS::ReplicationInstance
 - [x] AWS::DMS::ReplicationSubnetGroup
@@ -74,6 +81,8 @@
 - [x] AWS::DeviceFarm::Project
 - [x] AWS::DeviceFarm::TestGridProject
 - [x] AWS::DynamoDB::Table
+- [x] AWS::EC2::CapacityReservation
+- [x] AWS::EC2::ClientVpnEndpoint
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::DHCPOptions
 - [x] AWS::EC2::EC2Fleet
@@ -201,11 +210,13 @@
 - [x] AWS::IoTWireless::ServiceProfile
 - [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
+- [x] AWS::Kendra::Index
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
 - [x] AWS::KinesisAnalyticsV2::Application
 - [x] AWS::KinesisFirehose::DeliveryStream
 - [x] AWS::KinesisVideo::SignalingChannel
+- [x] AWS::KinesisVideo::Stream
 - [x] AWS::Lambda::Alias
 - [x] AWS::Lambda::Function
 - [x] AWS::Lex::Bot
@@ -214,6 +225,7 @@
 - [x] AWS::Lightsail::Certificate
 - [x] AWS::Lightsail::Disk
 - [x] AWS::Lightsail::StaticIp
+- [x] AWS::Logs::Destination
 - [x] AWS::LookoutMetrics::Alert
 - [x] AWS::LookoutVision::Project
 - [x] AWS::MSK::Cluster
@@ -223,9 +235,11 @@
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
 - [x] AWS::NetworkFirewall::TLSInspectionConfiguration
+- [x] AWS::NetworkManager::CustomerGatewayAssociation
 - [x] AWS::NetworkManager::Device
 - [x] AWS::NetworkManager::GlobalNetwork
 - [x] AWS::NetworkManager::Link
+- [x] AWS::NetworkManager::LinkAssociation
 - [x] AWS::NetworkManager::Site
 - [x] AWS::NetworkManager::TransitGatewayRegistration
 - [x] AWS::OpenSearch::Domain
@@ -233,6 +247,7 @@
 - [x] AWS::Pinpoint::App
 - [x] AWS::Pinpoint::ApplicationSettings
 - [x] AWS::Pinpoint::Campaign
+- [x] AWS::Pinpoint::EmailChannel
 - [x] AWS::Pinpoint::InAppTemplate
 - [x] AWS::Pinpoint::Segment
 - [x] AWS::QLDB::Ledger
@@ -271,6 +286,7 @@
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
+- [x] AWS::S3::AccessPoint
 - [x] AWS::S3::AccountPublicAccessBlock
 - [x] AWS::S3::Bucket*
 - [x] AWS::S3::MultiRegionAccessPoint
@@ -327,4 +343,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 326 resources
+Found 342 resources

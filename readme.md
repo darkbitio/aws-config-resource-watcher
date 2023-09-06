@@ -5,6 +5,7 @@
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
 - [x] AWS::Amplify::App
+- [x] AWS::Amplify::Branch
 - [x] AWS::ApiGateway::RestApi
 - [x] AWS::ApiGateway::Stage
 - [x] AWS::ApiGatewayV2::Api
@@ -15,6 +16,8 @@
 - [x] AWS::AppConfig::Environment
 - [x] AWS::AppConfig::HostedConfigurationVersion
 - [x] AWS::AppFlow::Flow
+- [x] AWS::AppIntegrations::EventIntegration
+- [x] AWS::AppMesh::Route
 - [x] AWS::AppMesh::VirtualGateway
 - [x] AWS::AppMesh::VirtualNode
 - [x] AWS::AppMesh::VirtualRouter
@@ -25,6 +28,7 @@
 - [x] AWS::AppStream::DirectoryConfig
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
+- [x] AWS::Athena::PreparedStatement
 - [x] AWS::Athena::WorkGroup
 - [x] AWS::AuditManager::Assessment
 - [x] AWS::AutoScaling::AutoScalingGroup
@@ -91,6 +95,7 @@
 - [x] AWS::EC2::FlowLog
 - [x] AWS::EC2::Host
 - [x] AWS::EC2::IPAM
+- [x] AWS::EC2::IPAMScope
 - [x] AWS::EC2::Instance
 - [x] AWS::EC2::InternetGateway
 - [x] AWS::EC2::LaunchTemplate
@@ -150,9 +155,11 @@
 - [x] AWS::Events::Endpoint
 - [x] AWS::Events::EventBus
 - [x] AWS::Events::Rule
+- [x] AWS::Evidently::Launch
 - [x] AWS::Evidently::Project
 - [x] AWS::FIS::ExperimentTemplate
 - [x] AWS::Forecast::Dataset
+- [x] AWS::Forecast::DatasetGroup
 - [x] AWS::FraudDetector::EntityType
 - [x] AWS::FraudDetector::Label
 - [x] AWS::FraudDetector::Outcome
@@ -163,7 +170,9 @@
 - [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
 - [x] AWS::Glue::MLTransform
+- [x] AWS::GreengrassV2::ComponentVersion
 - [x] AWS::GroundStation::Config
+- [x] AWS::GroundStation::MissionProfile
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::GuardDuty::Filter
 - [x] AWS::GuardDuty::IPSet
@@ -229,8 +238,12 @@
 - [x] AWS::LookoutMetrics::Alert
 - [x] AWS::LookoutVision::Project
 - [x] AWS::MSK::Cluster
+- [x] AWS::MSK::Configuration
+- [x] AWS::MediaConnect::FlowEntitlement
+- [x] AWS::MediaConnect::FlowVpcInterface
 - [x] AWS::MediaPackage::PackagingConfiguration
 - [x] AWS::MediaPackage::PackagingGroup
+- [x] AWS::MediaTailor::PlaybackConfiguration
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
@@ -244,10 +257,15 @@
 - [x] AWS::NetworkManager::TransitGatewayRegistration
 - [x] AWS::OpenSearch::Domain
 - [x] AWS::Panorama::Package
+- [x] AWS::Personalize::Dataset
+- [x] AWS::Personalize::Schema
+- [x] AWS::Personalize::Solution
 - [x] AWS::Pinpoint::App
 - [x] AWS::Pinpoint::ApplicationSettings
 - [x] AWS::Pinpoint::Campaign
 - [x] AWS::Pinpoint::EmailChannel
+- [x] AWS::Pinpoint::EmailTemplate
+- [x] AWS::Pinpoint::EventStream
 - [x] AWS::Pinpoint::InAppTemplate
 - [x] AWS::Pinpoint::Segment
 - [x] AWS::QLDB::Ledger
@@ -267,6 +285,7 @@
 - [x] AWS::Redshift::ClusterSubnetGroup
 - [x] AWS::Redshift::EventSubscription
 - [x] AWS::Redshift::ScheduledAction
+- [x] AWS::ResilienceHub::App
 - [x] AWS::ResilienceHub::ResiliencyPolicy
 - [x] AWS::RoboMaker::RobotApplication
 - [x] AWS::RoboMaker::RobotApplicationVersion
@@ -343,4 +362,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 342 resources
+Found 361 resources

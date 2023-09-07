@@ -2,6 +2,7 @@
 
 - [x] AWS::ACM::Certificate
 - [x] AWS::ACMPCA::CertificateAuthority
+- [x] AWS::APS::RuleGroupsNamespace
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
 - [x] AWS::Amplify::App
@@ -43,6 +44,7 @@
 - [x] AWS::Backup::ReportPlan
 - [x] AWS::Batch::ComputeEnvironment
 - [x] AWS::Batch::JobQueue
+- [x] AWS::Batch::SchedulingPolicy
 - [x] AWS::Budgets::BudgetsAction
 - [x] AWS::Cassandra::Keyspace
 - [x] AWS::Cloud9::EnvironmentEC2
@@ -57,6 +59,7 @@
 - [x] AWS::CodeDeploy::Application
 - [x] AWS::CodeDeploy::DeploymentConfig
 - [x] AWS::CodeDeploy::DeploymentGroup
+- [x] AWS::CodeGuruProfiler::ProfilingGroup
 - [x] AWS::CodeGuruReviewer::RepositoryAssociation
 - [x] AWS::CodePipeline::Pipeline
 - [x] AWS::Config::ConfigurationRecorder
@@ -240,6 +243,7 @@
 - [x] AWS::MSK::Cluster
 - [x] AWS::MSK::Configuration
 - [x] AWS::MediaConnect::FlowEntitlement
+- [x] AWS::MediaConnect::FlowSource
 - [x] AWS::MediaConnect::FlowVpcInterface
 - [x] AWS::MediaPackage::PackagingConfiguration
 - [x] AWS::MediaPackage::PackagingGroup
@@ -303,6 +307,8 @@
 - [x] AWS::Route53Resolver::FirewallDomainList
 - [x] AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::Route53Resolver::ResolverEndpoint
+- [x] AWS::Route53Resolver::ResolverQueryLoggingConfig
+- [x] AWS::Route53Resolver::ResolverQueryLoggingConfigAssociation
 - [x] AWS::Route53Resolver::ResolverRule
 - [x] AWS::Route53Resolver::ResolverRuleAssociation
 - [x] AWS::S3::AccessPoint
@@ -335,6 +341,7 @@
 - [x] AWS::ServiceCatalog::CloudFormationProvisionedProduct
 - [x] AWS::ServiceCatalog::Portfolio
 - [x] AWS::ServiceDiscovery::HttpNamespace
+- [x] AWS::ServiceDiscovery::Instance
 - [x] AWS::ServiceDiscovery::PublicDnsNamespace
 - [x] AWS::ServiceDiscovery::Service
 - [x] AWS::Shield::Protection
@@ -343,6 +350,7 @@
 - [x] AWS::StepFunctions::Activity
 - [x] AWS::StepFunctions::StateMachine
 - [x] AWS::Transfer::Agreement
+- [x] AWS::Transfer::Certificate
 - [x] AWS::Transfer::Connector
 - [x] AWS::Transfer::Workflow
 - [x] AWS::WAF::RateBasedRule
@@ -362,4 +370,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 361 resources
+Found 369 resources

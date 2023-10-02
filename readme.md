@@ -220,7 +220,6 @@
 - [x] AWS::IoTTwinMaker::Scene
 - [x] AWS::IoTTwinMaker::Workspace
 - [x] AWS::IoTWireless::ServiceProfile
-- [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::Kendra::Index
 - [x] AWS::Kinesis::Stream
@@ -370,4 +369,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 369 resources
+Found 368 resources

@@ -27,6 +27,7 @@
 - [x] AWS::AppRunner::VpcConnector
 - [x] AWS::AppStream::Application
 - [x] AWS::AppStream::DirectoryConfig
+- [x] AWS::AppStream::Stack
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
 - [x] AWS::Athena::PreparedStatement
@@ -56,6 +57,7 @@
 - [x] AWS::CloudWatch::MetricStream
 - [x] AWS::CodeArtifact::Repository
 - [x] AWS::CodeBuild::Project
+- [x] AWS::CodeBuild::ReportGroup
 - [x] AWS::CodeDeploy::Application
 - [x] AWS::CodeDeploy::DeploymentConfig
 - [x] AWS::CodeDeploy::DeploymentGroup
@@ -194,13 +196,16 @@
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::ImagePipeline
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
+- [x] AWS::InspectorV2::Filter
 - [x] AWS::IoT::AccountAuditConfiguration
 - [x] AWS::IoT::Authorizer
 - [x] AWS::IoT::CustomMetric
 - [x] AWS::IoT::Dimension
 - [x] AWS::IoT::FleetMetric
+- [x] AWS::IoT::JobTemplate
 - [x] AWS::IoT::MitigationAction
 - [x] AWS::IoT::Policy
+- [x] AWS::IoT::ProvisioningTemplate
 - [x] AWS::IoT::RoleAlias
 - [x] AWS::IoT::ScheduledAudit
 - [x] AWS::IoT::SecurityProfile
@@ -219,6 +224,8 @@
 - [x] AWS::IoTTwinMaker::Entity
 - [x] AWS::IoTTwinMaker::Scene
 - [x] AWS::IoTTwinMaker::Workspace
+- [x] AWS::IoTWireless::FuotaTask
+- [x] AWS::IoTWireless::MulticastGroup
 - [x] AWS::IoTWireless::ServiceProfile
 - [x] AWS::KMS::Key
 - [x] AWS::Kendra::Index
@@ -239,6 +246,7 @@
 - [x] AWS::Logs::Destination
 - [x] AWS::LookoutMetrics::Alert
 - [x] AWS::LookoutVision::Project
+- [x] AWS::MSK::BatchScramSecret
 - [x] AWS::MSK::Cluster
 - [x] AWS::MSK::Configuration
 - [x] AWS::MediaConnect::FlowEntitlement
@@ -261,6 +269,7 @@
 - [x] AWS::OpenSearch::Domain
 - [x] AWS::Panorama::Package
 - [x] AWS::Personalize::Dataset
+- [x] AWS::Personalize::DatasetGroup
 - [x] AWS::Personalize::Schema
 - [x] AWS::Personalize::Solution
 - [x] AWS::Pinpoint::App
@@ -330,6 +339,7 @@
 - [x] AWS::SageMaker::CodeRepository
 - [x] AWS::SageMaker::Domain
 - [x] AWS::SageMaker::EndpointConfig
+- [x] AWS::SageMaker::FeatureGroup
 - [x] AWS::SageMaker::Image
 - [x] AWS::SageMaker::Model
 - [x] AWS::SageMaker::NotebookInstance
@@ -369,4 +379,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 368 resources
+Found 378 resources

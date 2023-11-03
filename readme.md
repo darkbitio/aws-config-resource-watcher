@@ -2,6 +2,7 @@
 
 - [x] AWS::ACM::Certificate
 - [x] AWS::ACMPCA::CertificateAuthority
+- [x] AWS::ACMPCA::CertificateAuthorityActivation
 - [x] AWS::APS::RuleGroupsNamespace
 - [x] AWS::AccessAnalyzer::Analyzer
 - [x] AWS::AmazonMQ::Broker
@@ -18,6 +19,8 @@
 - [x] AWS::AppConfig::HostedConfigurationVersion
 - [x] AWS::AppFlow::Flow
 - [x] AWS::AppIntegrations::EventIntegration
+- [x] AWS::AppMesh::GatewayRoute
+- [x] AWS::AppMesh::Mesh
 - [x] AWS::AppMesh::Route
 - [x] AWS::AppMesh::VirtualGateway
 - [x] AWS::AppMesh::VirtualNode
@@ -67,7 +70,9 @@
 - [x] AWS::Config::ConfigurationRecorder
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
+- [x] AWS::Connect::Instance
 - [x] AWS::Connect::PhoneNumber
+- [x] AWS::Connect::QuickConnect
 - [x] AWS::CustomerProfiles::Domain
 - [x] AWS::CustomerProfiles::ObjectType
 - [x] AWS::DMS::Certificate
@@ -91,6 +96,7 @@
 - [x] AWS::DeviceFarm::TestGridProject
 - [x] AWS::DynamoDB::Table
 - [x] AWS::EC2::CapacityReservation
+- [x] AWS::EC2::CarrierGateway
 - [x] AWS::EC2::ClientVpnEndpoint
 - [x] AWS::EC2::CustomerGateway
 - [x] AWS::EC2::DHCPOptions
@@ -100,6 +106,7 @@
 - [x] AWS::EC2::FlowLog
 - [x] AWS::EC2::Host
 - [x] AWS::EC2::IPAM
+- [x] AWS::EC2::IPAMPool
 - [x] AWS::EC2::IPAMScope
 - [x] AWS::EC2::Instance
 - [x] AWS::EC2::InternetGateway
@@ -121,6 +128,8 @@
 - [x] AWS::EC2::TrafficMirrorTarget
 - [x] AWS::EC2::TransitGateway
 - [x] AWS::EC2::TransitGatewayAttachment
+- [x] AWS::EC2::TransitGatewayConnect
+- [x] AWS::EC2::TransitGatewayMulticastDomain
 - [x] AWS::EC2::TransitGatewayRouteTable
 - [x] AWS::EC2::VPC
 - [x] AWS::EC2::VPCEndpoint
@@ -133,6 +142,7 @@
 - [x] AWS::ECR::PullThroughCacheRule
 - [x] AWS::ECR::RegistryPolicy
 - [x] AWS::ECR::Repository
+- [x] AWS::ECS::CapacityProvider
 - [x] AWS::ECS::Cluster
 - [x] AWS::ECS::Service*
 - [x] AWS::ECS::TaskDefinition
@@ -184,6 +194,7 @@
 - [x] AWS::GuardDuty::ThreatIntelSet
 - [x] AWS::HealthLake::FHIRDatastore
 - [x] AWS::IAM::Group
+- [x] AWS::IAM::InstanceProfile
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::SAMLProvider
@@ -199,6 +210,7 @@
 - [x] AWS::InspectorV2::Filter
 - [x] AWS::IoT::AccountAuditConfiguration
 - [x] AWS::IoT::Authorizer
+- [x] AWS::IoT::CACertificate
 - [x] AWS::IoT::CustomMetric
 - [x] AWS::IoT::Dimension
 - [x] AWS::IoT::FleetMetric
@@ -223,11 +235,13 @@
 - [x] AWS::IoTSiteWise::Project
 - [x] AWS::IoTTwinMaker::Entity
 - [x] AWS::IoTTwinMaker::Scene
+- [x] AWS::IoTTwinMaker::SyncJob
 - [x] AWS::IoTTwinMaker::Workspace
 - [x] AWS::IoTWireless::FuotaTask
 - [x] AWS::IoTWireless::MulticastGroup
 - [x] AWS::IoTWireless::ServiceProfile
 - [x] AWS::KMS::Key
+- [x] AWS::KafkaConnect::Connector
 - [x] AWS::Kendra::Index
 - [x] AWS::Kinesis::Stream
 - [x] AWS::Kinesis::StreamConsumer
@@ -236,6 +250,7 @@
 - [x] AWS::KinesisVideo::SignalingChannel
 - [x] AWS::KinesisVideo::Stream
 - [x] AWS::Lambda::Alias
+- [x] AWS::Lambda::CodeSigningConfig
 - [x] AWS::Lambda::Function
 - [x] AWS::Lex::Bot
 - [x] AWS::Lex::BotAlias
@@ -259,6 +274,7 @@
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
 - [x] AWS::NetworkFirewall::TLSInspectionConfiguration
+- [x] AWS::NetworkManager::ConnectPeer
 - [x] AWS::NetworkManager::CustomerGatewayAssociation
 - [x] AWS::NetworkManager::Device
 - [x] AWS::NetworkManager::GlobalNetwork
@@ -299,6 +315,7 @@
 - [x] AWS::Redshift::ScheduledAction
 - [x] AWS::ResilienceHub::App
 - [x] AWS::ResilienceHub::ResiliencyPolicy
+- [x] AWS::ResourceExplorer2::Index
 - [x] AWS::RoboMaker::RobotApplication
 - [x] AWS::RoboMaker::RobotApplicationVersion
 - [x] AWS::RoboMaker::SimulationApplication
@@ -379,4 +396,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 378 resources
+Found 395 resources

@@ -16,6 +16,7 @@
 - [x] AWS::AppConfig::ConfigurationProfile
 - [x] AWS::AppConfig::DeploymentStrategy
 - [x] AWS::AppConfig::Environment
+- [x] AWS::AppConfig::ExtensionAssociation
 - [x] AWS::AppConfig::HostedConfigurationVersion
 - [x] AWS::AppFlow::Flow
 - [x] AWS::AppIntegrations::EventIntegration
@@ -30,6 +31,7 @@
 - [x] AWS::AppRunner::VpcConnector
 - [x] AWS::AppStream::Application
 - [x] AWS::AppStream::DirectoryConfig
+- [x] AWS::AppStream::Fleet
 - [x] AWS::AppStream::Stack
 - [x] AWS::AppSync::GraphQLApi
 - [x] AWS::Athena::DataCatalog
@@ -67,6 +69,9 @@
 - [x] AWS::CodeGuruProfiler::ProfilingGroup
 - [x] AWS::CodeGuruReviewer::RepositoryAssociation
 - [x] AWS::CodePipeline::Pipeline
+- [x] AWS::Cognito::UserPool
+- [x] AWS::Cognito::UserPoolClient
+- [x] AWS::Cognito::UserPoolGroup
 - [x] AWS::Config::ConfigurationRecorder
 - [x] AWS::Config::ConformancePackCompliance
 - [x] AWS::Config::ResourceCompliance
@@ -113,7 +118,9 @@
 - [x] AWS::EC2::LaunchTemplate
 - [x] AWS::EC2::NatGateway
 - [x] AWS::EC2::NetworkAcl
+- [x] AWS::EC2::NetworkInsightsAccessScope
 - [x] AWS::EC2::NetworkInsightsAccessScopeAnalysis
+- [x] AWS::EC2::NetworkInsightsAnalysis
 - [x] AWS::EC2::NetworkInsightsPath
 - [x] AWS::EC2::NetworkInterface
 - [x] AWS::EC2::PrefixList
@@ -172,6 +179,7 @@
 - [x] AWS::Events::Rule
 - [x] AWS::Evidently::Launch
 - [x] AWS::Evidently::Project
+- [x] AWS::Evidently::Segment
 - [x] AWS::FIS::ExperimentTemplate
 - [x] AWS::Forecast::Dataset
 - [x] AWS::Forecast::DatasetGroup
@@ -185,8 +193,10 @@
 - [x] AWS::Glue::Classifier
 - [x] AWS::Glue::Job
 - [x] AWS::Glue::MLTransform
+- [x] AWS::Grafana::Workspace
 - [x] AWS::GreengrassV2::ComponentVersion
 - [x] AWS::GroundStation::Config
+- [x] AWS::GroundStation::DataflowEndpointGroup
 - [x] AWS::GroundStation::MissionProfile
 - [x] AWS::GuardDuty::Detector
 - [x] AWS::GuardDuty::Filter
@@ -195,6 +205,7 @@
 - [x] AWS::HealthLake::FHIRDatastore
 - [x] AWS::IAM::Group
 - [x] AWS::IAM::InstanceProfile
+- [x] AWS::IAM::OIDCProvider
 - [x] AWS::IAM::Policy
 - [x] AWS::IAM::Role
 - [x] AWS::IAM::SAMLProvider
@@ -206,6 +217,7 @@
 - [x] AWS::ImageBuilder::ContainerRecipe
 - [x] AWS::ImageBuilder::DistributionConfiguration
 - [x] AWS::ImageBuilder::ImagePipeline
+- [x] AWS::ImageBuilder::ImageRecipe
 - [x] AWS::ImageBuilder::InfrastructureConfiguration
 - [x] AWS::InspectorV2::Filter
 - [x] AWS::IoT::AccountAuditConfiguration
@@ -240,6 +252,7 @@
 - [x] AWS::IoTWireless::FuotaTask
 - [x] AWS::IoTWireless::MulticastGroup
 - [x] AWS::IoTWireless::ServiceProfile
+- [x] AWS::KMS::Alias
 - [x] AWS::KMS::Key
 - [x] AWS::KafkaConnect::Connector
 - [x] AWS::Kendra::Index
@@ -261,15 +274,19 @@
 - [x] AWS::Logs::Destination
 - [x] AWS::LookoutMetrics::Alert
 - [x] AWS::LookoutVision::Project
+- [x] AWS::M2::Environment
 - [x] AWS::MSK::BatchScramSecret
 - [x] AWS::MSK::Cluster
+- [x] AWS::MSK::ClusterPolicy
 - [x] AWS::MSK::Configuration
+- [x] AWS::MSK::VpcConnection
 - [x] AWS::MediaConnect::FlowEntitlement
 - [x] AWS::MediaConnect::FlowSource
 - [x] AWS::MediaConnect::FlowVpcInterface
 - [x] AWS::MediaPackage::PackagingConfiguration
 - [x] AWS::MediaPackage::PackagingGroup
 - [x] AWS::MediaTailor::PlaybackConfiguration
+- [x] AWS::MemoryDB::SubnetGroup
 - [x] AWS::NetworkFirewall::Firewall
 - [x] AWS::NetworkFirewall::FirewallPolicy
 - [x] AWS::NetworkFirewall::RuleGroup
@@ -305,12 +322,15 @@
 - [x] AWS::RDS::DBSubnetGroup
 - [x] AWS::RDS::EventSubscription
 - [x] AWS::RDS::GlobalCluster
+- [x] AWS::RDS::OptionGroup
 - [x] AWS::RUM::AppMonitor
 - [x] AWS::Redshift::Cluster
 - [x] AWS::Redshift::ClusterParameterGroup
 - [x] AWS::Redshift::ClusterSecurityGroup
 - [x] AWS::Redshift::ClusterSnapshot
 - [x] AWS::Redshift::ClusterSubnetGroup
+- [x] AWS::Redshift::EndpointAccess
+- [x] AWS::Redshift::EndpointAuthorization
 - [x] AWS::Redshift::EventSubscription
 - [x] AWS::Redshift::ScheduledAction
 - [x] AWS::ResilienceHub::App
@@ -330,6 +350,7 @@
 - [x] AWS::Route53RecoveryReadiness::RecoveryGroup
 - [x] AWS::Route53RecoveryReadiness::ResourceSet
 - [x] AWS::Route53Resolver::FirewallDomainList
+- [x] AWS::Route53Resolver::FirewallRuleGroup
 - [x] AWS::Route53Resolver::FirewallRuleGroupAssociation
 - [x] AWS::Route53Resolver::ResolverEndpoint
 - [x] AWS::Route53Resolver::ResolverQueryLoggingConfig
@@ -349,6 +370,7 @@
 - [x] AWS::SNS::Topic
 - [x] AWS::SQS::Queue
 - [x] AWS::SSM::AssociationCompliance
+- [x] AWS::SSM::Document
 - [x] AWS::SSM::FileData
 - [x] AWS::SSM::ManagedInstanceInventory
 - [x] AWS::SSM::PatchCompliance
@@ -378,6 +400,7 @@
 - [x] AWS::Transfer::Agreement
 - [x] AWS::Transfer::Certificate
 - [x] AWS::Transfer::Connector
+- [x] AWS::Transfer::Profile
 - [x] AWS::Transfer::Workflow
 - [x] AWS::WAF::RateBasedRule
 - [x] AWS::WAF::Rule
@@ -396,4 +419,4 @@
 - [x] AWS::WorkSpaces::Workspace
 - [x] AWS::XRay::EncryptionConfig
 
-Found 395 resources
+Found 418 resources
